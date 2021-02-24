@@ -1,0 +1,13 @@
+/* // @import './node_modules/bootstrap/scss/bootstrap'; */
+
+.game-container {
+  width: 810px;
+  height: 410px;
+  margin: auto;
+  border:5px blue solid;
+}
+
+.block-premier {
+  background-size: 140%;
+  background-image: url("/assets/macos_mojave_night_desert_5k.jpg");
+}
