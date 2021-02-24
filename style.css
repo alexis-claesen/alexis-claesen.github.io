@@ -11,3 +11,9 @@
   background-size: 140%;
   background-image: url("/assets/macos_mojave_night_desert_5k.jpg");
 }
+
+html {
+  background-size: 140%;
+  background-image: url("/assets/macos_mojave_night_desert_5k.jpg");
+  background-repeat:repeat;
+}
