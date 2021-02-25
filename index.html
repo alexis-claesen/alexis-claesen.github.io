@@ -1,0 +1,37 @@
+<!doctype html> 
+<html lang="en" class="h-100"> 
+<head> 
+  <meta charset="UTF-8" />
+  <title>Motivation Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body class="h-100">
+  <div class="container-fluid block-premier h-100">
+    <div class="row justify-content-center mb-2">
+      <div class="col-8 text-center text-white">
+        <h1>Motivation-game EM Lyon</h1>
+        <h2>Alexis CLAESEN</h2>
+        <button id="refreshButton" class="btn btn-danger" onclick="window.location.reload(true)">Relancer le jeu</button>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 justify-self-center">
+        <div id="game" class="game-container"></div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-5">
+        <h3 class="text-white">Comment jouer :</h3>
+        <ul class="text-white fs-4">
+          <li>Deplacez le personnage avec les fleches directionnelles du clavier, gauche et droite</li>
+          <li>Lors d'une rencontre avec un personnage, appuiez sur la touche entrer pour faire défiler les dialogues. Vous ne pouvez pas bouger avant la fin du dialogue</li>
+          <li>Pour relancer le jeu, cliquez sur le bouton "Relancer le jeu"</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<noscript>Vous devez activer javascript pour que le jeu puisse se lancer</noscript>
+<script type="text/javascript" src="bundle.min.js"></script></body>
+</html>
